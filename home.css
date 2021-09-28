@@ -1,0 +1,82 @@
+body {
+  margin: 0%;
+  font-family: "Glory", sans-serif;
+  background-color: blueviolet;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: rgb(180, 111, 111);
+}
+nav {
+  width: 40%;
+  margin: 0 auto;
+}
+header p {
+  margin: 0;
+}
+header h1 {
+  margin: 0 auto auto 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0%;
+}
+nav li {
+  margin: auto 1%;
+  list-style-type: none;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+/* g8uwh8yhudisfghiaheiog hio */
+.the{display: flex;}
+
+
+.left-things { 
+   display: flex;
+   flex-direction: column;
+   width: 66%;
+   margin:2%;
+   
+}
+
+.right-things{
+   
+   width:28%;
+   margin:2% 2% 2% 0;
+}
+
+
+.item{padding: 2%;margin: 3% auto;
+   background-color: cadetblue;}
+
+
+.thing{padding: 2%;margin: 3% auto;
+   background-color: cadetblue;display: flex;}
+
+.things{margin-top: 5%;}
+.bigthing{padding: 2%;}
+.bigitem{padding: 2%;}
+.items{margin-top: 10%;background-color: darkcyan;padding: 2%;}
+.bigthings{background-color: cadetblue;}
+
+.bigitem{background-color: cadetblue;}
+img{width:90%;height: 70%;
+   object-fit: fill;}
+.left-things img{display: inline;}
+
+.thing div {width:50%;}
+.bigthing img{width: 100%;margin: 0 auto;}
+.bigitems{background-color: darkcyan;padding: 2%;}
